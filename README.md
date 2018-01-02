@@ -1,11 +1,10 @@
 # Liberty
-handle .lib files, save into json, and support for filter
-用法如下：
-toJson:
-java -jar Lib.jar -libs libsListFile [-output outputFile]
-filterJson:
-java -jar Lib.jar -json jsonFile -filter filterExpression -outputAttr AttrName -outputFile outputFile
-Please refer README for more info
+handle .lib files, save into json, and support for filter   
+用法如下：  
+toJson:  
+java -jar Lib.jar -libs libsListFile [-output outputFile]  
+filterJson:   
+java -jar Lib.jar -json jsonFile -filter filterExpression -outputAttr AttrName -outputFile outputFile  
 
 ## toJson
 toJson时，需要提供所有待解析的.lib文件，放在一个文本里，格式如下：  
